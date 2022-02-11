@@ -10,7 +10,9 @@ RESTful API là một tiêu chuẩn dùng trong việc thiết kế API cho các
 
 -   REST (REpresentational State Transfer) là một dạng chuyển đổi cấu trúc dữ liệu, một kiểu kiến trúc để viết API. Nó sử dụng phương thức HTTP đơn giản để tạo cho giao tiếp giữa các máy. Vì vậy, thay vì sử dụng một URL cho việc xử lý một số thông tin người dùng, REST gửi một yêu cầu HTTP như GET, POST, DELETE, vv đến một URL để xử lý dữ liệu.
 
-### Responsibility:
+---
+
+## Responsibility:
 
 -   Chức năng quan trọng nhất của REST là quy định cách sử dụng các HTTP method (như GET, POST, PUT, DELETE…) và cách định dạng các URL cho ứng dụng web để quản các resource. RESTful không quy định logic code ứng dụng và không giới hạn bởi ngôn ngữ lập trình ứng dụng, bất kỳ ngôn ngữ hoặc framework nào cũng có thể sử dụng để thiết kế một RESTful API.
 
@@ -42,7 +44,7 @@ HTTP request có tất cả 9 loại method , 2 loại được sử dụng ph�
 -   OPTIONS: mô tả các tùy chọn giao tiếp cho resource.
 -   TRACE: thực hiện một bài test loop – back theo đường dẫn đến resource.
 
-### RESTful Route
+## RESTful Route
 Viết Api thì sẽ khai báo router vào file routes/api.php thay vì sử dụng file routes/web.php. 
 
 ### Resource Controllers
