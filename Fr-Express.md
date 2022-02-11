@@ -14,6 +14,8 @@ Các ưu điểm các bạn sẽ nhìn thấy được khi sử dụng express f
 -  Định nghĩa rõ ràng các request methods trong route.
 -  Hỗ trợ mạnh về REST API.
 
+---
+
 ## Cài đặt
 
 Để cài đặt express, vào Terminal và gõ lệnh sau:
@@ -34,6 +36,8 @@ Với câu lệnh trên sẽ lưu phần cài đặt trong thư mục node_modul
     $ npm install cookie-parser --save
     $ npm install multer --save
 
+---
+
 ## Làm việc với file tĩnh
 
 Express cung cấp lớp tiện ích trung gian express.static để phục vụ cho các file tĩnh như các file hình ảnh, css, js.
@@ -52,6 +56,7 @@ Có vẻ nó vẫn còn khá là trừu tương để có thể hiểu. Hãy là
     public/images
     public/images/test.
     
+---
 
 ##  Chạy chương trình đầu tiên.
 - Trước đây, khi muốn khởi tạo một con server thì chúng ta sẽ phải require module http. Nhưng khi đã sử dụng express framework thì chúng ta chỉ cần require express là mọi chuyện đã được giải quyết (vì trong express framework đã tích hợp sẵn module http).
@@ -91,6 +96,8 @@ Chỉ với vài dòng code ngắn gọn như kia là chúng ta đã khởi tạ
     //xét cổng port 8000 cho server
     app.listen(8000);
 Ở đoạn code trên mình đã thêm định tuyến cho url dạng trang chủ ( ở đây là http://localhost:8000) là sẽ trả về dòng chữ 'Hello world'.  Định tuyến này trong express framework gọi là routing (bài sau mình sẽ giới thiệu với mọi người).
+
+---
 
 ## Router trong express framwork là gì?
 - Router trong express framwork là một bộ định tuyến giúp cho chúng ta định danh ra các url và hành động kèm theo nó.
