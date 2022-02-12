@@ -191,3 +191,5 @@ VD: Truyền tham số name vào router.
     app.get('/user/:name', function (req,res) {
         res.send('User name có tên: '+ req.params.name);
     });
+
+    
