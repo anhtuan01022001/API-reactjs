@@ -1,3 +1,6 @@
+// method : GET 
+// require express 
+
 const express = require('express'); // require express ra 
 const app = express(); // 
 
